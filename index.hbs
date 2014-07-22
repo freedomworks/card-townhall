@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{{styles}}}
+  <script type="text/javascript" src="//use.typekit.net/hxp5yev.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body {{{bodyClasses}}}>
+  <h1>
+  {{state}}
+  </h1>
+  <div class="wrapper">
+    <div class="signature">
+      <img class="arrow" src="./images/arrow.png">
+      {{#if avatar}}
+        <div class="avatar-wrapper">
+          <span class="avatar" style="background-image: url({{{avatar}}})"></span>
+          <img class="outline" src="./images/avatar-outline.png">
+        </div>
+      {{/if}}
+      <div class="info">
+        <p class="name">{{{first}}} {{{last}}}</p>
+        <p class="location">
+          {{{city}}}
+          {{#if state}}{{#if city}}, {{/if}}{{/if}}
+          {{#if city}}{{state}}{{else}}{{state_full}}{{/if}}
+        </p>
+      </div>
+      <div class="spacer"></div>
+    </div>
+  </div>
+  {{{scripts}}}
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "title": "TOWNHALL",
+  "description": "TOWNHALL",
+  "sizes": {
+    "twitter": {
+      "width": 800,
+      "height": 400,
+      "default": true
+    }
+  },
+  "styles": [
+    "./styles.css"
+  ],
+  "variables": {
+    "first": "Your",
+    "last": "Name",
+    "city": "Washington",
+    "state": "DC",
+    "state_full": "District of Columbia",
+    "avatar": "./images/avatar.png"
+  }
+}

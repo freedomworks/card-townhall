@@ -1,0 +1,62 @@
+body {
+  width: 800px;
+  height: 400px;
+  background: url(./images/background.jpg) top left no-repeat;
+  font-family: 'proxima-nova', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+.wrapper {
+  position: absolute;
+  width: 800px;
+  top: 240px;
+  text-align: center;
+}
+.signature {
+  position: relative;
+  display: inline-block;
+}
+.arrow {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  margin-top: -20px;
+}
+.avatar-wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.avatar {
+  display: block;
+  width: 108px;
+  height: 108px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.outline {
+  position: absolute;
+  top: -11px;
+  left: -11px;
+}
+.info {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  text-align: left;
+}
+.name {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.location {
+  color: #EFC611;
+  font-size: 22px;
+  font-weight: bold;
+}
+.spacer {
+  display: inline-block;
+  vertical-align: middle;
+  height: 120px;
+}
